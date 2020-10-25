@@ -19,7 +19,7 @@ class PigLatinizer
   end
   
   def latinize_sentence(sentence)
-    sentence.split.collect { |word| piglatinize_word(word) }.join(" ")
+    sentence.split.collect { |word| latinize_word(word) }.join(" ")
   end
   
   def piglatinize(input_str)
