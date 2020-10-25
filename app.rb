@@ -11,7 +11,7 @@ class App < Sinatra::Base
     
     @latinized = word.piglatinize(params[:textbox])
     
-    erb :piglatinize
+    erb :piglatin_result
   end
   
 end
